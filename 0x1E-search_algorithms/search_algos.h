@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+/**
  * struct listint_s - singly linked list
  *
  * @n: Integer
@@ -20,7 +20,7 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-/*
+/**
  * struct skiplist_s - Singly linked list with an express lane
  *
  * @n: Integer
